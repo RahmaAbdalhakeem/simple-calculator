@@ -2,14 +2,16 @@
 <table>
 <tr>
 <td>
-<img 
-  src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmU4dHpjcGFkMG82NGo0MWR0M3JuNnUzZHBmbnhyMzM0M2ozcHBmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xfVPUC1Qm9qNmX7tmj/giphy.gif"width="150" />
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmU4dHpjcGFkMG82NGo0MWR0M3JuNnUzZHBmbnhyMzM0M2ozcHBmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xfVPUC1Qm9qNmX7tmj/giphy.gif" width="150" />
 </td>
 <td>
-<h1>🧮 Simple Calculator</h1>
+<h1>🧮 Simple Calculator / آلة حاسبة بسيطة</h1>
 <p>
-A fun and interactive calculator built with HTML, CSS, and JavaScript.  
-Responsive, animated buttons and smooth hover effects make calculations enjoyable!
+A fun, interactive calculator with HTML, CSS & JavaScript.  
+Responsive and animated buttons make calculations easy!  
+
+آلة حاسبة ممتعة وتفاعلية باستخدام HTML و CSS و JavaScript.  
+أزرار متحركة وتصميم متجاوب لتسهيل الحساب!
 </p>
 </td>
 </tr>
@@ -18,28 +20,27 @@ Responsive, animated buttons and smooth hover effects make calculations enjoyabl
 
 ---
 
-## ✨ Features
-- 📱 Fully responsive for desktop and mobile  
-- 🎨 Stylish buttons with hover & click animations  
-- 🧹 `CLEAR` button to reset the screen  
-- ✅ `=` button to calculate results  
-- 💻 Simple and clean Google Fonts styling  
+## ✨ Features / الميزات
+- 📱 Responsive for desktop & mobile / متجاوبة لجميع الأجهزة  
+- 🎨 Animated buttons / أزرار متحركة  
+- 🧹 `CLEAR` to reset / زر CLEAR لمسح الشاشة  
+- ✅ `=` to calculate / زر = لإجراء الحساب  
 
 ---
 
-## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3** (including animations and transitions)
-- **JavaScript** (for interactive calculation logic)
+## 🛠️ Technologies / التقنيات
+- HTML5
+- CSS3
+- JavaScript  
 
 ---
 
-## 🚀 How to Use
-1. Open `index.html` in your browser  
-2. Click numbers and operators to create expressions  
-3. Press `=` to see the result  
-4. Press `CLEAR` to reset the calculator  
+## 🚀 How to Use / كيفية الاستخدام
+1. Open `index.html` / افتح `index.html`  
+2. Click numbers & operators / اضغط على الأرقام والعمليات  
+3. Press `=` to see result / اضغط `=` لرؤية النتيجة  
+4. Press `CLEAR` to reset / اضغط `CLEAR` لمسح الشاشة  
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure / هيكل المشروع
