@@ -3,7 +3,7 @@
 <tr>
 <td>
 <img 
-  src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmU4dHpjcGFkMG82NGo0MWR0M3JuNnUzZHBmbnhyMzM0M2ozcHBmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xfVPUC1Qm9qNmX7tmj/giphy.gif "width="150" />
+  src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmU4dHpjcGFkMG82NGo0MWR0M3JuNnUzZHBmbnhyMzM0M2ozcHBmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xfVPUC1Qm9qNmX7tmj/giphy.gif"width="150" />
 </td>
 <td>
 <h1>🧮 Simple Calculator</h1>
