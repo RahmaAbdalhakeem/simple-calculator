@@ -27,7 +27,8 @@ Responsive and animated buttons make calculations easy!
 - ✅ `=` to calculate / زر = لإجراء الحساب  
 
 ---
-
+🌐 View Live [https://rahmaabdalhakeem.github.io/simple-calculator/]
+---
 ## 🛠️ Technologies / التقنيات
 - HTML5
 - CSS3
