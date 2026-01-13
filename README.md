@@ -8,7 +8,7 @@
 <h1> Simple Calculator / آلة حاسبة بسيطة</h1>
 <p>
 A fun, interactive calculator with HTML, CSS & JavaScript.  
-Responsive and animated buttons make calculations easy!  
+Responsive and animated buttons make calculations easy. 
 
 آلة حاسبة ممتعة وتفاعلية باستخدام HTML و CSS و JavaScript.  
 أزرار متحركة وتصميم متجاوب لتسهيل الحساب!
