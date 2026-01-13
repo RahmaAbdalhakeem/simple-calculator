@@ -1,31 +1,40 @@
-const screenDisplay = document.querySelector('.screen');
-const buttons = document.querySelectorAll('button');
+// الشاشة
+const screen = document.querySelector(".screen");
 
-let calculation = [];
-let accumulativeCalculation = '';
+// كل الأزرار
+const buttons = document.querySelectorAll("button");
 
-function calculate(button) {
+// متغير لتجميع العملية
+let currentValue = "";
+
+// تشغيل الآلة الحاسبة
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+
     const value = button.textContent;
 
+    // زر المسح
     if (value === "CLEAR") {
-        calculation = [];
-        accumulativeCalculation = '';
-        screenDisplay.textContent = '0';
-    } 
-    else if (value === "=") {
-        try {
-            screenDisplay.textContent = eval(accumulativeCalculation || '0');
-        } catch {
-            screenDisplay.textContent = 'Error';
-        }
-    } 
-    else {
-        calculation.push(value);
-        accumulativeCalculation = calculation.join('');
-        screenDisplay.textContent = accumulativeCalculation;
+      currentValue = "";
+      screen.textContent = "0";
     }
-}
 
-buttons.forEach(button => 
-    button.addEventListener('click', () => calculate(button))
-);
+    // زر يساوي
+    else if (value === "=") {
+      try {
+        screen.textContent = eval(currentValue);
+        currentValue = screen.textContent;
+      } catch {
+        screen.textContent = "Error";
+        currentValue = "";
+      }
+    }
+
+    // باقي الأزرار (أرقام + عمليات)
+    else {
+      currentValue += value;
+      screen.textContent = currentValue;
+    }
+
+  });
+});
