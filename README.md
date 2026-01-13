@@ -5,7 +5,7 @@
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmU4dHpjcGFkMG82NGo0MWR0M3JuNnUzZHBmbnhyMzM0M2ozcHBmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xfVPUC1Qm9qNmX7tmj/giphy.gif" width="150" />
 </td>
 <td>
-<h1>🧮 Simple Calculator / آلة حاسبة بسيطة</h1>
+<h1> Simple Calculator / آلة حاسبة بسيطة</h1>
 <p>
 A fun, interactive calculator with HTML, CSS & JavaScript.  
 Responsive and animated buttons make calculations easy!  
@@ -21,10 +21,13 @@ Responsive and animated buttons make calculations easy!
 ---
 
 ## ✨ Features / الميزات
-- 📱 Responsive for desktop & mobile / متجاوبة لجميع الأجهزة  
-- 🎨 Animated buttons / أزرار متحركة  
-- 🧹 `CLEAR` to reset / زر CLEAR لمسح الشاشة  
-- ✅ `=` to calculate / زر = لإجراء الحساب  
+-📱 Responsive على كل الشاشات
+
+-🎨 Buttons فيها animation بسيطة
+
+-🧹 CLEAR بيمسح كل حاجة
+
+-✅ = Calculate & show the result / بيحسب وبيطلع النتيجة
 
 ---
 🌐 View Live [https://rahmaabdalhakeem.github.io/simple-calculator/]
