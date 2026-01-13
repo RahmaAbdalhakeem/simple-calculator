@@ -1,4 +1,4 @@
-
+/* إعدادات الجسم Body */
 body {
     background-image: url('./image/background.jpg'); 
     background-size: cover;
@@ -12,6 +12,7 @@ body {
     margin: 0;
 }
 
+/* حاوية الآلة الحاسبة */
 .calculator {
     background-color: rgba(70, 89, 139, 1);
     border: solid rgba(145, 146, 76, 1) 1px;
@@ -19,6 +20,7 @@ body {
     border-radius: 10px;
 }
 
+/*  شاشة العرض */
 .screen {
     width: 224px;
     background-color: #d4d4d8;
@@ -30,12 +32,12 @@ body {
     border-radius: 5px;
 }
 
+/*الأزرار  */
 .buttons {
     width: 232px;
     display: flex;
     flex-wrap: wrap;
 }
-
 button {
     font-family: "Black Ops One";
     background-color: rgba(243, 233, 233, 1);
@@ -48,69 +50,30 @@ button {
     margin: 4px;
     cursor: pointer;
 }
+button:hover { background-color: rgba(253, 252, 253, 1); }
+button:active { background-color: rgb(192, 190, 190); }
 
-button:hover {
-    background-color: rgba(253, 252, 253, 1);
-}
-
-button:active {
-    background-color: rgb(192, 190, 190);
-}
-
-#equals {
-    background-color: #facc15;
-}
-
-#equals:hover {
-    background-color: #d4d4d8;
-}
-
+/* أزرار خاصة  */
+#equals { background-color: #facc15; }
+#equals:hover { background-color: #d4d4d8; }
 #clear {
     width: 100%;
     background-color: #d4d4d8;
     font-size: 30px;
     border-radius: 5px;
 }
-
 #clear:hover {
     background-color: #dc2626;
     color: black;
 }
 
+/* تصميم استجابة للشاشات الصغيرة */
 @media (max-width: 768px) {
-  .screen {
-    width: 90vw;
-    font-size: 6vw;
-  }
-  .buttons {
-    width: 92vw;
-    justify-content: center;
-  }
-  button {
-    width: 20vw;
-    height: 20vw;
-    font-size: 7vw;
-  }
-  #clear {
-    width: 92vw;
-    font-size: 5vw;
-  }
+  .screen { width: 90vw; font-size: 6vw; }
+  .buttons { width: 92vw; justify-content: center; }
+  button { width: 20vw; height: 20vw; font-size: 7vw; }
+  #clear { width: 92vw; font-size: 5vw; }
 }
-
-@media (max-width: 500px) {
-  .calculator {
-    transform: scale(0.85);
-  }
-}
-
-@media (max-width: 400px) {
-  .calculator {
-    transform: scale(0.75);
-  }
-}
-
-@media (max-width: 330px) {
-  .calculator {
-    transform: scale(0.65);
-  }
-}
+@media (max-width: 500px) { .calculator { transform: scale(0.85); } }
+@media (max-width: 400px) { .calculator { transform: scale(0.75); } }
+@media (max-width: 330px) { .calculator { transform: scale(0.65); } }
