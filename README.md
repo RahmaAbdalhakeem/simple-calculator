@@ -33,14 +33,4 @@ Responsive and animated buttons make calculations easy!
 - CSS3
 - JavaScript  
 
----
 
-## 🚀 How to Use / كيفية الاستخدام
-1. Open `index.html` / افتح `index.html`  
-2. Click numbers & operators / اضغط على الأرقام والعمليات  
-3. Press `=` to see result / اضغط `=` لرؤية النتيجة  
-4. Press `CLEAR` to reset / اضغط `CLEAR` لمسح الشاشة  
-
----
-
-## 📂 Project Structure / هيكل المشروع
