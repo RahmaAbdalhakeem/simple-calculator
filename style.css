@@ -1,3 +1,6 @@
+html {
+    color-scheme: light;
+}
 /* إعدادات الجسم Body */
 body {
     background-image: url('./image/background.jpg'); 
