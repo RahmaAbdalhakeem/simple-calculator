@@ -18,7 +18,7 @@ Responsive and animated buttons make calculations easy.
 </table>
 </div>
 
----
+----
 
 ## ✨ Features / الميزات
 - 📱 Responsive على كل الشاشات  
